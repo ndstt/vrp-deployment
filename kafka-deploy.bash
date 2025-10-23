@@ -1,5 +1,5 @@
 #!/bin/bash
-# deploy kafka in rocky linux 10 vm
+# deploy kafka as a service in rocky linux 10 vm
 
 # 1 install jdk 21 (LTS)
 sudo dnf update -y
