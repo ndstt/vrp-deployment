@@ -8,4 +8,5 @@ sudo podman run -d \
   -e KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=localhost:9092 \
   docker.io/provectuslabs/kafka-ui:latest
 
-sudo podman start kafka-ui # start the kafka-ui container if it's not running
+# to start the kafka-ui container if it's not running
+#sudo podman start kafka-ui
